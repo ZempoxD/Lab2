@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Output en Javascript</title>
+</head>
+<body>
+
+    <h1>Demostración de Output en Javascript</h1>
+
+    <button onclick="mostrarNombre()">Mostrar nombre</button>
+
+    <p id="texto"></p>
+    <button onclick="actualizarTexto()">Actualizar texto</button>
+
+    <script>
+        function mostrarNombre() {
+            alert("Zempoalteca Lara Haziel Esau");
+        }
+
+        function actualizarTexto() {
+            document.getElementById("texto").textContent =
+                "¡Texto actualizado con Javascript!";
+        }
+
+        console.log("La página se ha cargado correctamente.");
+    </script>
+
+</body>
+</html>
